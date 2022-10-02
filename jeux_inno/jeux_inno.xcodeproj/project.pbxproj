@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41FF0EA2150263D00A46E45 /* re_initialiser.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0E92150263D00A46E45 /* re_initialiser.c */; };
+		C41FF0EC21503A5100A46E45 /* deplacement_strategique_2.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0EB21503A5100A46E45 /* deplacement_strategique_2.c */; };
+		C41FF0EE21503B2800A46E45 /* creation_salle_horde.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0ED21503B2800A46E45 /* creation_salle_horde.c */; };
+		C41FF0F021504C6B00A46E45 /* deplacement_strategique_1.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0EF21504C6B00A46E45 /* deplacement_strategique_1.c */; };
+		C41FF0FA21515AF600A46E45 /* modifier_mini_map.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0F921515AF600A46E45 /* modifier_mini_map.c */; };
+		C41FF0FC2151602900A46E45 /* afficher_mini_map.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0FB2151602800A46E45 /* afficher_mini_map.c */; };
+		C41FF100215198B300A46E45 /* perdu.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF0FF215198B300A46E45 /* perdu.c */; };
+		C41FF1022151A83F00A46E45 /* deplacement_strategique_3.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1012151A83F00A46E45 /* deplacement_strategique_3.c */; };
+		C41FF1062151BD1E00A46E45 /* deplacement_strategique_4.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1052151BD1E00A46E45 /* deplacement_strategique_4.c */; };
+		C41FF108215236C400A46E45 /* afficher_menu.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF107215236C400A46E45 /* afficher_menu.c */; };
+		C41FF12321527BD200A46E45 /* attaque_enemie.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF12221527BD100A46E45 /* attaque_enemie.c */; };
+		C41FF12B2153044600A46E45 /* creation_salle_ombre.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF12A2153044600A46E45 /* creation_salle_ombre.c */; };
+		C41FF1302155821D00A46E45 /* enemie_danger.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF12F2155821D00A46E45 /* enemie_danger.c */; };
+		C41FF133215586E800A46E45 /* creation_salle_goblin.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF132215586E800A46E45 /* creation_salle_goblin.c */; };
+		C41FF13521562D7E00A46E45 /* salle_pot_de_fleur.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF13421562D7E00A46E45 /* salle_pot_de_fleur.c */; };
+		C41FF1372156357000A46E45 /* place_suffisante_pot_fleur.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1362156357000A46E45 /* place_suffisante_pot_fleur.c */; };
+		C41FF1392156415B00A46E45 /* modifier_carte.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1382156415B00A46E45 /* modifier_carte.c */; };
+		C41FF13C215673D400A46E45 /* creation_salle_dragon.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF13B215673D400A46E45 /* creation_salle_dragon.c */; };
+		C41FF13E2156904E00A46E45 /* relier_salle.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF13D2156904E00A46E45 /* relier_salle.c */; };
+		C41FF14021579C4E00A46E45 /* afficher_fenetre_image.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF13F21579C4E00A46E45 /* afficher_fenetre_image.c */; };
+		C41FF1422157B66200A46E45 /* initialisation_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1412157B66200A46E45 /* initialisation_rand.c */; };
+		C41FF1452157B75100A46E45 /* initialisation_SDL.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1442157B75100A46E45 /* initialisation_SDL.c */; };
+		C41FF1472157B8E500A46E45 /* creation_de_la_fenetre.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1462157B8E500A46E45 /* creation_de_la_fenetre.c */; };
+		C41FF1492157BBBD00A46E45 /* creation_zone_dessin.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF1482157BBBD00A46E45 /* creation_zone_dessin.c */; };
+		C41FF14B215CFDDB00A46E45 /* initialisation_textures.c in Sources */ = {isa = PBXBuildFile; fileRef = C41FF14A215CFDDB00A46E45 /* initialisation_textures.c */; };
+		C426CC47214D5B1500D0F579 /* obstacle.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC46214D5B1500D0F579 /* obstacle.c */; };
+		C426CC49214D603600D0F579 /* interaction.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC48214D603600D0F579 /* interaction.c */; };
+		C426CC53214EC57600D0F579 /* porte_tunnel_salle_cible.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC52214EC57600D0F579 /* porte_tunnel_salle_cible.c */; };
+		C426CC55214F044500D0F579 /* ajouter_monstre.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC54214F044500D0F579 /* ajouter_monstre.c */; };
+		C426CC57214F907E00D0F579 /* lire_clavier.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC56214F907E00D0F579 /* lire_clavier.c */; };
+		C426CC59214FB2B600D0F579 /* deplacer_enemie.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC58214FB2B600D0F579 /* deplacer_enemie.c */; };
+		C426CC5C214FB57200D0F579 /* deplacement_alea.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC5B214FB57200D0F579 /* deplacement_alea.c */; };
+		C426CC71214FCD7E00D0F579 /* suppression.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC6C214FCD7D00D0F579 /* suppression.c */; };
+		C426CC72214FCD7E00D0F579 /* detruirListe.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC6D214FCD7D00D0F579 /* detruirListe.c */; };
+		C426CC73214FCD7E00D0F579 /* initialisation.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC6E214FCD7D00D0F579 /* initialisation.c */; };
+		C426CC74214FCD7E00D0F579 /* insertion.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC70214FCD7E00D0F579 /* insertion.c */; };
+		C426CC76214FCF1100D0F579 /* tailleListe.c in Sources */ = {isa = PBXBuildFile; fileRef = C426CC75214FCF1100D0F579 /* tailleListe.c */; };
+		C44F3CF32076D8DD0031D3FE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F3CF22076D8DD0031D3FE /* SDL2.framework */; };
+		C4E47DA8214C42E800544482 /* copier_labyrinthe.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D8C214C42E500544482 /* copier_labyrinthe.c */; };
+		C4E47DA9214C42E800544482 /* creation_salle_couloir.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D8D214C42E500544482 /* creation_salle_couloir.c */; };
+		C4E47DAB214C42E800544482 /* creation_labyrinthe.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D90214C42E500544482 /* creation_labyrinthe.c */; };
+		C4E47DAC214C42E800544482 /* salle_cible.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D91214C42E500544482 /* salle_cible.c */; };
+		C4E47DAD214C42E800544482 /* placer_salle.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D92214C42E500544482 /* placer_salle.c */; };
+		C4E47DAE214C42E800544482 /* porte_tunnel.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D93214C42E600544482 /* porte_tunnel.c */; };
+		C4E47DAF214C42E800544482 /* comm.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D94214C42E600544482 /* comm.c */; };
+		C4E47DB0214C42E800544482 /* modifier_salle.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D95214C42E600544482 /* modifier_salle.c */; };
+		C4E47DB1214C42E800544482 /* creation_petit_plateau.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D96214C42E600544482 /* creation_petit_plateau.c */; };
+		C4E47DB2214C42E800544482 /* affichage_labyrinthe.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D97214C42E600544482 /* affichage_labyrinthe.c */; };
+		C4E47DB3214C42E800544482 /* initialisation_carte.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D98214C42E600544482 /* initialisation_carte.c */; };
+		C4E47DB4214C42E800544482 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D99214C42E600544482 /* main.c */; };
+		C4E47DB5214C42E800544482 /* salle_arrivee_laby.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9A214C42E600544482 /* salle_arrivee_laby.c */; };
+		C4E47DB6214C42E800544482 /* prototype_valide.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9B214C42E600544482 /* prototype_valide.c */; };
+		C4E47DB7214C42E800544482 /* salle_caisse_alea.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9C214C42E600544482 /* salle_caisse_alea.c */; };
+		C4E47DB8214C42E800544482 /* creation_plateau_alea.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9D214C42E600544482 /* creation_plateau_alea.c */; };
+		C4E47DB9214C42E800544482 /* deplacer_hero.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9E214C42E700544482 /* deplacer_hero.c */; };
+		C4E47DBA214C42E800544482 /* initialisation_labyrinthe.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47D9F214C42E700544482 /* initialisation_labyrinthe.c */; };
+		C4E47DBB214C42E800544482 /* salle_carre_caisse.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA0214C42E700544482 /* salle_carre_caisse.c */; };
+		C4E47DBC214C42E800544482 /* placer_tunnels.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA1214C42E700544482 /* placer_tunnels.c */; };
+		C4E47DBD214C42E800544482 /* choisir_type_salle.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA2214C42E700544482 /* choisir_type_salle.c */; };
+		C4E47DBE214C42E800544482 /* creation_salle_begnet.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA3214C42E700544482 /* creation_salle_begnet.c */; };
+		C4E47DBF214C42E800544482 /* creation_prototype_labyrinthe.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA4214C42E700544482 /* creation_prototype_labyrinthe.c */; };
+		C4E47DC0214C42E800544482 /* salle_plus.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA5214C42E700544482 /* salle_plus.c */; };
+		C4E47DC1214C42E800544482 /* rectange.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA6214C42E700544482 /* rectange.c */; };
+		C4E47DC2214C42E800544482 /* creation_de_la_carte.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E47DA7214C42E800544482 /* creation_de_la_carte.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C44F3CE52076D4B80031D3FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C41FF0E92150263D00A46E45 /* re_initialiser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = re_initialiser.c; sourceTree = "<group>"; };
+		C41FF0EB21503A5100A46E45 /* deplacement_strategique_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacement_strategique_2.c; sourceTree = "<group>"; };
+		C41FF0ED21503B2800A46E45 /* creation_salle_horde.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_salle_horde.c; sourceTree = "<group>"; };
+		C41FF0EF21504C6B00A46E45 /* deplacement_strategique_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacement_strategique_1.c; sourceTree = "<group>"; };
+		C41FF0F12150F17D00A46E45 /* garde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = garde.h; sourceTree = "<group>"; };
+		C41FF0F22150F19700A46E45 /* garde_elite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = garde_elite.h; sourceTree = "<group>"; };
+		C41FF0F821514FA600A46E45 /* etrange_caisse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = etrange_caisse.h; sourceTree = "<group>"; };
+		C41FF0F921515AF600A46E45 /* modifier_mini_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modifier_mini_map.c; sourceTree = "<group>"; };
+		C41FF0FB2151602800A46E45 /* afficher_mini_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = afficher_mini_map.c; sourceTree = "<group>"; };
+		C41FF0FF215198B300A46E45 /* perdu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = perdu.c; sourceTree = "<group>"; };
+		C41FF1012151A83F00A46E45 /* deplacement_strategique_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacement_strategique_3.c; sourceTree = "<group>"; };
+		C41FF1032151A90D00A46E45 /* slim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = slim.h; sourceTree = "<group>"; };
+		C41FF1042151B96C00A46E45 /* minautor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minautor.h; sourceTree = "<group>"; };
+		C41FF1052151BD1E00A46E45 /* deplacement_strategique_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacement_strategique_4.c; sourceTree = "<group>"; };
+		C41FF107215236C400A46E45 /* afficher_menu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = afficher_menu.c; sourceTree = "<group>"; };
+		C41FF10E2152574400A46E45 /* gros_slim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gros_slim.h; sourceTree = "<group>"; };
+		C41FF12221527BD100A46E45 /* attaque_enemie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = attaque_enemie.c; sourceTree = "<group>"; };
+		C41FF1242152B2CD00A46E45 /* fantome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fantome.h; sourceTree = "<group>"; };
+		C41FF1272152D6A400A46E45 /* mage_de_glace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mage_de_glace.h; sourceTree = "<group>"; };
+		C41FF1282152E5E200A46E45 /* lutin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lutin.h; sourceTree = "<group>"; };
+		C41FF1292152F5FD00A46E45 /* liche.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liche.h; sourceTree = "<group>"; };
+		C41FF12A2153044600A46E45 /* creation_salle_ombre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_salle_ombre.c; sourceTree = "<group>"; };
+		C41FF12E2155703D00A46E45 /* gnome_lepreux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gnome_lepreux.h; sourceTree = "<group>"; };
+		C41FF12F2155821D00A46E45 /* enemie_danger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enemie_danger.c; sourceTree = "<group>"; };
+		C41FF1312155854D00A46E45 /* goblin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goblin.h; sourceTree = "<group>"; };
+		C41FF132215586E800A46E45 /* creation_salle_goblin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_salle_goblin.c; sourceTree = "<group>"; };
+		C41FF13421562D7E00A46E45 /* salle_pot_de_fleur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = salle_pot_de_fleur.c; sourceTree = "<group>"; };
+		C41FF1362156357000A46E45 /* place_suffisante_pot_fleur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = place_suffisante_pot_fleur.c; sourceTree = "<group>"; };
+		C41FF1382156415B00A46E45 /* modifier_carte.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modifier_carte.c; sourceTree = "<group>"; };
+		C41FF13A2156724600A46E45 /* dragon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dragon.h; sourceTree = "<group>"; };
+		C41FF13B215673D400A46E45 /* creation_salle_dragon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_salle_dragon.c; sourceTree = "<group>"; };
+		C41FF13D2156904E00A46E45 /* relier_salle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = relier_salle.c; sourceTree = "<group>"; };
+		C41FF13F21579C4E00A46E45 /* afficher_fenetre_image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = afficher_fenetre_image.c; sourceTree = "<group>"; };
+		C41FF1412157B66200A46E45 /* initialisation_rand.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = initialisation_rand.c; sourceTree = "<group>"; };
+		C41FF1432157B69000A46E45 /* initialisation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = initialisation.h; sourceTree = "<group>"; };
+		C41FF1442157B75100A46E45 /* initialisation_SDL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = initialisation_SDL.c; sourceTree = "<group>"; };
+		C41FF1462157B8E500A46E45 /* creation_de_la_fenetre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_de_la_fenetre.c; sourceTree = "<group>"; };
+		C41FF1482157BBBD00A46E45 /* creation_zone_dessin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = creation_zone_dessin.c; sourceTree = "<group>"; };
+		C41FF14A215CFDDB00A46E45 /* initialisation_textures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = initialisation_textures.c; sourceTree = "<group>"; };
+		C426CC46214D5B1500D0F579 /* obstacle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = obstacle.c; sourceTree = "<group>"; };
+		C426CC48214D603600D0F579 /* interaction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = interaction.c; sourceTree = "<group>"; };
+		C426CC4E214EB6E600D0F579 /* carte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carte.h; sourceTree = "<group>"; };
+		C426CC4F214EB88C00D0F579 /* labyrinthe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = labyrinthe.h; sourceTree = "<group>"; };
+		C426CC50214EB8F500D0F579 /* affichage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = affichage.h; sourceTree = "<group>"; };
+		C426CC51214EB99C00D0F579 /* action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = action.h; sourceTree = "<group>"; };
+		C426CC52214EC57600D0F579 /* porte_tunnel_salle_cible.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = porte_tunnel_salle_cible.c; sourceTree = "<group>"; };
+		C426CC54214F044500D0F579 /* ajouter_monstre.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ajouter_monstre.c; sourceTree = "<group>"; };
+		C426CC56214F907E00D0F579 /* lire_clavier.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lire_clavier.c; sourceTree = "<group>"; };
+		C426CC58214FB2B600D0F579 /* deplacer_enemie.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacer_enemie.c; sourceTree = "<group>"; };
+		C426CC5A214FB2E700D0F579 /* vivant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vivant.h; sourceTree = "<group>"; };
+		C426CC5B214FB57200D0F579 /* deplacement_alea.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deplacement_alea.c; sourceTree = "<group>"; };
+		C426CC6C214FCD7D00D0F579 /* suppression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = suppression.c; sourceTree = "<group>"; };
+		C426CC6D214FCD7D00D0F579 /* detruirListe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = detruirListe.c; sourceTree = "<group>"; };
+		C426CC6E214FCD7D00D0F579 /* initialisation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = initialisation.c; sourceTree = "<group>"; };
+		C426CC6F214FCD7D00D0F579 /* liste_chainee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liste_chainee.h; sourceTree = "<group>"; };
+		C426CC70214FCD7E00D0F579 /* insertion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = insertion.c; sourceTree = "<group>"; };
+		C426CC75214FCF1100D0F579 /* tailleListe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tailleListe.c; sourceTree = "<group>"; };
+		C44F3CE72076D4B80031D3FE /* sdl_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sdl_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44F3CF22076D8DD0031D3FE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		C4E47D8C214C42E500544482 /* copier_labyrinthe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = copier_labyrinthe.c; sourceTree = "<group>"; };
+		C4E47D8D214C42E500544482 /* creation_salle_couloir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_salle_couloir.c; sourceTree = "<group>"; };
+		C4E47D8F214C42E500544482 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C4E47D90214C42E500544482 /* creation_labyrinthe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_labyrinthe.c; sourceTree = "<group>"; };
+		C4E47D91214C42E500544482 /* salle_cible.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = salle_cible.c; sourceTree = "<group>"; };
+		C4E47D92214C42E500544482 /* placer_salle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = placer_salle.c; sourceTree = "<group>"; };
+		C4E47D93214C42E600544482 /* porte_tunnel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = porte_tunnel.c; sourceTree = "<group>"; };
+		C4E47D94214C42E600544482 /* comm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comm.c; sourceTree = "<group>"; };
+		C4E47D95214C42E600544482 /* modifier_salle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = modifier_salle.c; sourceTree = "<group>"; };
+		C4E47D96214C42E600544482 /* creation_petit_plateau.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_petit_plateau.c; sourceTree = "<group>"; };
+		C4E47D97214C42E600544482 /* affichage_labyrinthe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = affichage_labyrinthe.c; sourceTree = "<group>"; };
+		C4E47D98214C42E600544482 /* initialisation_carte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = initialisation_carte.c; sourceTree = "<group>"; };
+		C4E47D99214C42E600544482 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C4E47D9A214C42E600544482 /* salle_arrivee_laby.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = salle_arrivee_laby.c; sourceTree = "<group>"; };
+		C4E47D9B214C42E600544482 /* prototype_valide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prototype_valide.c; sourceTree = "<group>"; };
+		C4E47D9C214C42E600544482 /* salle_caisse_alea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = salle_caisse_alea.c; sourceTree = "<group>"; };
+		C4E47D9D214C42E600544482 /* creation_plateau_alea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_plateau_alea.c; sourceTree = "<group>"; };
+		C4E47D9E214C42E700544482 /* deplacer_hero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deplacer_hero.c; sourceTree = "<group>"; };
+		C4E47D9F214C42E700544482 /* initialisation_labyrinthe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = initialisation_labyrinthe.c; sourceTree = "<group>"; };
+		C4E47DA0214C42E700544482 /* salle_carre_caisse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = salle_carre_caisse.c; sourceTree = "<group>"; };
+		C4E47DA1214C42E700544482 /* placer_tunnels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = placer_tunnels.c; sourceTree = "<group>"; };
+		C4E47DA2214C42E700544482 /* choisir_type_salle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = choisir_type_salle.c; sourceTree = "<group>"; };
+		C4E47DA3214C42E700544482 /* creation_salle_begnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_salle_begnet.c; sourceTree = "<group>"; };
+		C4E47DA4214C42E700544482 /* creation_prototype_labyrinthe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_prototype_labyrinthe.c; sourceTree = "<group>"; };
+		C4E47DA5214C42E700544482 /* salle_plus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = salle_plus.c; sourceTree = "<group>"; };
+		C4E47DA6214C42E700544482 /* rectange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rectange.c; sourceTree = "<group>"; };
+		C4E47DA7214C42E800544482 /* creation_de_la_carte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = creation_de_la_carte.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44F3CE42076D4B80031D3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44F3CF32076D8DD0031D3FE /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44F3CDE2076D4B80031D3FE = {
+			isa = PBXGroup;
+			children = (
+				C44F3CE92076D4B80031D3FE /* jeux_inno */,
+				C44F3CE82076D4B80031D3FE /* Products */,
+				C44F3CF12076D8DD0031D3FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C44F3CE82076D4B80031D3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44F3CE72076D4B80031D3FE /* sdl_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44F3CE92076D4B80031D3FE /* jeux_inno */ = {
+			isa = PBXGroup;
+			children = (
+				C4E47D94214C42E600544482 /* comm.c */,
+				C4E47D99214C42E600544482 /* main.c */,
+				C4E47D8F214C42E500544482 /* Header.h */,
+				C41FF0F12150F17D00A46E45 /* garde.h */,
+				C41FF0F22150F19700A46E45 /* garde_elite.h */,
+				C41FF1032151A90D00A46E45 /* slim.h */,
+				C41FF1282152E5E200A46E45 /* lutin.h */,
+				C41FF12E2155703D00A46E45 /* gnome_lepreux.h */,
+				C41FF1272152D6A400A46E45 /* mage_de_glace.h */,
+				C41FF10E2152574400A46E45 /* gros_slim.h */,
+				C41FF1242152B2CD00A46E45 /* fantome.h */,
+				C41FF0F821514FA600A46E45 /* etrange_caisse.h */,
+				C41FF1042151B96C00A46E45 /* minautor.h */,
+				C41FF13A2156724600A46E45 /* dragon.h */,
+				C41FF1292152F5FD00A46E45 /* liche.h */,
+				C41FF1312155854D00A46E45 /* goblin.h */,
+				C41FF1432157B69000A46E45 /* initialisation.h */,
+				C41FF1412157B66200A46E45 /* initialisation_rand.c */,
+				C41FF1442157B75100A46E45 /* initialisation_SDL.c */,
+				C41FF1462157B8E500A46E45 /* creation_de_la_fenetre.c */,
+				C41FF1482157BBBD00A46E45 /* creation_zone_dessin.c */,
+				C426CC4F214EB88C00D0F579 /* labyrinthe.h */,
+				C4E47D90214C42E500544482 /* creation_labyrinthe.c */,
+				C4E47D9F214C42E700544482 /* initialisation_labyrinthe.c */,
+				C4E47D97214C42E600544482 /* affichage_labyrinthe.c */,
+				C4E47DA4214C42E700544482 /* creation_prototype_labyrinthe.c */,
+				C4E47D9B214C42E600544482 /* prototype_valide.c */,
+				C4E47D8C214C42E500544482 /* copier_labyrinthe.c */,
+				C41FF13D2156904E00A46E45 /* relier_salle.c */,
+				C4E47DA2214C42E700544482 /* choisir_type_salle.c */,
+				C4E47D9A214C42E600544482 /* salle_arrivee_laby.c */,
+				C41FF0F921515AF600A46E45 /* modifier_mini_map.c */,
+				C426CC4E214EB6E600D0F579 /* carte.h */,
+				C4E47DA7214C42E800544482 /* creation_de_la_carte.c */,
+				C4E47D98214C42E600544482 /* initialisation_carte.c */,
+				C4E47DA1214C42E700544482 /* placer_tunnels.c */,
+				C4E47D92214C42E500544482 /* placer_salle.c */,
+				C4E47D96214C42E600544482 /* creation_petit_plateau.c */,
+				C4E47D9D214C42E600544482 /* creation_plateau_alea.c */,
+				C4E47D8D214C42E500544482 /* creation_salle_couloir.c */,
+				C4E47DA3214C42E700544482 /* creation_salle_begnet.c */,
+				C41FF0ED21503B2800A46E45 /* creation_salle_horde.c */,
+				C41FF12A2153044600A46E45 /* creation_salle_ombre.c */,
+				C41FF132215586E800A46E45 /* creation_salle_goblin.c */,
+				C41FF13B215673D400A46E45 /* creation_salle_dragon.c */,
+				C4E47DA6214C42E700544482 /* rectange.c */,
+				C4E47D93214C42E600544482 /* porte_tunnel.c */,
+				C4E47D95214C42E600544482 /* modifier_salle.c */,
+				C4E47D91214C42E500544482 /* salle_cible.c */,
+				C4E47DA5214C42E700544482 /* salle_plus.c */,
+				C4E47DA0214C42E700544482 /* salle_carre_caisse.c */,
+				C4E47D9C214C42E600544482 /* salle_caisse_alea.c */,
+				C41FF13421562D7E00A46E45 /* salle_pot_de_fleur.c */,
+				C41FF1362156357000A46E45 /* place_suffisante_pot_fleur.c */,
+				C426CC52214EC57600D0F579 /* porte_tunnel_salle_cible.c */,
+				C426CC54214F044500D0F579 /* ajouter_monstre.c */,
+				C41FF1382156415B00A46E45 /* modifier_carte.c */,
+				C426CC50214EB8F500D0F579 /* affichage.h */,
+				C41FF107215236C400A46E45 /* afficher_menu.c */,
+				C41FF14A215CFDDB00A46E45 /* initialisation_textures.c */,
+				C41FF13F21579C4E00A46E45 /* afficher_fenetre_image.c */,
+				C41FF0FB2151602800A46E45 /* afficher_mini_map.c */,
+				C426CC51214EB99C00D0F579 /* action.h */,
+				C426CC56214F907E00D0F579 /* lire_clavier.c */,
+				C4E47D9E214C42E700544482 /* deplacer_hero.c */,
+				C426CC46214D5B1500D0F579 /* obstacle.c */,
+				C426CC48214D603600D0F579 /* interaction.c */,
+				C41FF0FF215198B300A46E45 /* perdu.c */,
+				C41FF12F2155821D00A46E45 /* enemie_danger.c */,
+				C426CC5A214FB2E700D0F579 /* vivant.h */,
+				C426CC58214FB2B600D0F579 /* deplacer_enemie.c */,
+				C426CC5B214FB57200D0F579 /* deplacement_alea.c */,
+				C41FF0EF21504C6B00A46E45 /* deplacement_strategique_1.c */,
+				C41FF0EB21503A5100A46E45 /* deplacement_strategique_2.c */,
+				C41FF1012151A83F00A46E45 /* deplacement_strategique_3.c */,
+				C41FF1052151BD1E00A46E45 /* deplacement_strategique_4.c */,
+				C41FF12221527BD100A46E45 /* attaque_enemie.c */,
+				C426CC6F214FCD7D00D0F579 /* liste_chainee.h */,
+				C426CC6E214FCD7D00D0F579 /* initialisation.c */,
+				C426CC70214FCD7E00D0F579 /* insertion.c */,
+				C426CC6C214FCD7D00D0F579 /* suppression.c */,
+				C426CC75214FCF1100D0F579 /* tailleListe.c */,
+				C41FF0E92150263D00A46E45 /* re_initialiser.c */,
+				C426CC6D214FCD7D00D0F579 /* detruirListe.c */,
+			);
+			path = jeux_inno;
+			sourceTree = "<group>";
+		};
+		C44F3CF12076D8DD0031D3FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44F3CF22076D8DD0031D3FE /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44F3CE62076D4B80031D3FE /* sdl_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44F3CEE2076D4B80031D3FE /* Build configuration list for PBXNativeTarget "sdl_test" */;
+			buildPhases = (
+				C44F3CE32076D4B80031D3FE /* Sources */,
+				C44F3CE42076D4B80031D3FE /* Frameworks */,
+				C44F3CE52076D4B80031D3FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sdl_test;
+			productName = sdl_test;
+			productReference = C44F3CE72076D4B80031D3FE /* sdl_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44F3CDF2076D4B80031D3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jean-Loup";
+				TargetAttributes = {
+					C44F3CE62076D4B80031D3FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C44F3CE22076D4B80031D3FE /* Build configuration list for PBXProject "jeux_inno" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C44F3CDE2076D4B80031D3FE;
+			productRefGroup = C44F3CE82076D4B80031D3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44F3CE62076D4B80031D3FE /* sdl_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44F3CE32076D4B80031D3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41FF1372156357000A46E45 /* place_suffisante_pot_fleur.c in Sources */,
+				C426CC57214F907E00D0F579 /* lire_clavier.c in Sources */,
+				C4E47DB4214C42E800544482 /* main.c in Sources */,
+				C41FF133215586E800A46E45 /* creation_salle_goblin.c in Sources */,
+				C41FF0F021504C6B00A46E45 /* deplacement_strategique_1.c in Sources */,
+				C4E47DC0214C42E800544482 /* salle_plus.c in Sources */,
+				C4E47DAB214C42E800544482 /* creation_labyrinthe.c in Sources */,
+				C41FF1452157B75100A46E45 /* initialisation_SDL.c in Sources */,
+				C426CC59214FB2B600D0F579 /* deplacer_enemie.c in Sources */,
+				C41FF0FC2151602900A46E45 /* afficher_mini_map.c in Sources */,
+				C41FF1302155821D00A46E45 /* enemie_danger.c in Sources */,
+				C4E47DC2214C42E800544482 /* creation_de_la_carte.c in Sources */,
+				C4E47DBF214C42E800544482 /* creation_prototype_labyrinthe.c in Sources */,
+				C4E47DB3214C42E800544482 /* initialisation_carte.c in Sources */,
+				C4E47DB7214C42E800544482 /* salle_caisse_alea.c in Sources */,
+				C41FF1392156415B00A46E45 /* modifier_carte.c in Sources */,
+				C4E47DBD214C42E800544482 /* choisir_type_salle.c in Sources */,
+				C4E47DC1214C42E800544482 /* rectange.c in Sources */,
+				C4E47DB9214C42E800544482 /* deplacer_hero.c in Sources */,
+				C4E47DB5214C42E800544482 /* salle_arrivee_laby.c in Sources */,
+				C41FF0EC21503A5100A46E45 /* deplacement_strategique_2.c in Sources */,
+				C41FF0EA2150263D00A46E45 /* re_initialiser.c in Sources */,
+				C426CC72214FCD7E00D0F579 /* detruirListe.c in Sources */,
+				C4E47DB2214C42E800544482 /* affichage_labyrinthe.c in Sources */,
+				C41FF1062151BD1E00A46E45 /* deplacement_strategique_4.c in Sources */,
+				C426CC5C214FB57200D0F579 /* deplacement_alea.c in Sources */,
+				C426CC73214FCD7E00D0F579 /* initialisation.c in Sources */,
+				C41FF13C215673D400A46E45 /* creation_salle_dragon.c in Sources */,
+				C41FF1422157B66200A46E45 /* initialisation_rand.c in Sources */,
+				C426CC47214D5B1500D0F579 /* obstacle.c in Sources */,
+				C4E47DAE214C42E800544482 /* porte_tunnel.c in Sources */,
+				C41FF100215198B300A46E45 /* perdu.c in Sources */,
+				C4E47DAF214C42E800544482 /* comm.c in Sources */,
+				C426CC49214D603600D0F579 /* interaction.c in Sources */,
+				C426CC76214FCF1100D0F579 /* tailleListe.c in Sources */,
+				C41FF0FA21515AF600A46E45 /* modifier_mini_map.c in Sources */,
+				C4E47DAD214C42E800544482 /* placer_salle.c in Sources */,
+				C41FF12321527BD200A46E45 /* attaque_enemie.c in Sources */,
+				C4E47DBA214C42E800544482 /* initialisation_labyrinthe.c in Sources */,
+				C41FF13E2156904E00A46E45 /* relier_salle.c in Sources */,
+				C426CC71214FCD7E00D0F579 /* suppression.c in Sources */,
+				C4E47DA9214C42E800544482 /* creation_salle_couloir.c in Sources */,
+				C4E47DBC214C42E800544482 /* placer_tunnels.c in Sources */,
+				C4E47DBE214C42E800544482 /* creation_salle_begnet.c in Sources */,
+				C426CC53214EC57600D0F579 /* porte_tunnel_salle_cible.c in Sources */,
+				C41FF14B215CFDDB00A46E45 /* initialisation_textures.c in Sources */,
+				C4E47DBB214C42E800544482 /* salle_carre_caisse.c in Sources */,
+				C4E47DB6214C42E800544482 /* prototype_valide.c in Sources */,
+				C41FF14021579C4E00A46E45 /* afficher_fenetre_image.c in Sources */,
+				C41FF108215236C400A46E45 /* afficher_menu.c in Sources */,
+				C426CC55214F044500D0F579 /* ajouter_monstre.c in Sources */,
+				C41FF1492157BBBD00A46E45 /* creation_zone_dessin.c in Sources */,
+				C41FF0EE21503B2800A46E45 /* creation_salle_horde.c in Sources */,
+				C41FF12B2153044600A46E45 /* creation_salle_ombre.c in Sources */,
+				C41FF1022151A83F00A46E45 /* deplacement_strategique_3.c in Sources */,
+				C41FF1472157B8E500A46E45 /* creation_de_la_fenetre.c in Sources */,
+				C4E47DA8214C42E800544482 /* copier_labyrinthe.c in Sources */,
+				C4E47DAC214C42E800544482 /* salle_cible.c in Sources */,
+				C426CC74214FCD7E00D0F579 /* insertion.c in Sources */,
+				C4E47DB1214C42E800544482 /* creation_petit_plateau.c in Sources */,
+				C4E47DB8214C42E800544482 /* creation_plateau_alea.c in Sources */,
+				C41FF13521562D7E00A46E45 /* salle_pot_de_fleur.c in Sources */,
+				C4E47DB0214C42E800544482 /* modifier_salle.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C44F3CEC2076D4B80031D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C44F3CED2076D4B80031D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C44F3CEF2076D4B80031D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44F3CF02076D4B80031D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44F3CE22076D4B80031D3FE /* Build configuration list for PBXProject "jeux_inno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44F3CEC2076D4B80031D3FE /* Debug */,
+				C44F3CED2076D4B80031D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44F3CEE2076D4B80031D3FE /* Build configuration list for PBXNativeTarget "sdl_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44F3CEF2076D4B80031D3FE /* Debug */,
+				C44F3CF02076D4B80031D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44F3CDF2076D4B80031D3FE /* Project object */;
+}

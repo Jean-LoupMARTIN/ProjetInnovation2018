@@ -1,0 +1,42 @@
+
+#ifndef hero_h
+#define hero_h
+
+
+#define HERO_0_DIRECTION_DE_BASE '>'
+#define HERO_0_VIE_DE_BASE 16 // mieux avec multiple_de_4
+#define HERO_0_VIE_COURANT_DE_BASE HERO_0_VIE_DE_BASE
+#define HERO_0_ATTAQUE_DE_BASE 0
+#define HERO_0_VITESSE_ATTAQUE_DE_BASE 0
+#define HERO_0_TAUX_COUP_CRITIQUE_DE_BASE 0
+#define HERO_0_VITESSE_DE_BASE 0
+#define HERO_0_TYPE_ATTAQUE_DE_BASE "normal"
+#define HERO_0_STATUT_ATTAQUE_DE_BASE "normal"
+#define HERO_0_POUVOIR_SPECIAL_DE_BASE "rien"
+
+
+#define HERO_1_DIRECTION_DE_BASE '>'
+#define HERO_1_VIE_DE_BASE 21 // mieux avec multiple_de_4
+#define HERO_1_VIE_COURANT_DE_BASE HERO_1_VIE_DE_BASE / 2
+#define HERO_1_ATTAQUE_DE_BASE 0
+#define HERO_1_VITESSE_ATTAQUE_DE_BASE 0
+#define HERO_1_TAUX_COUP_CRITIQUE_DE_BASE 0
+#define HERO_1_VITESSE_DE_BASE 0
+#define HERO_1_TYPE_ATTAQUE_DE_BASE "normal"
+#define HERO_1_STATUT_ATTAQUE_DE_BASE "normal"
+#define HERO_1_POUVOIR_SPECIAL_DE_BASE "rien"
+
+
+#define HERO_2_DIRECTION_DE_BASE '>'
+#define HERO_2_VIE_DE_BASE 10 // mieux avec multiple_de_4
+#define HERO_2_VIE_COURANT_DE_BASE HERO_2_VIE_DE_BASE
+#define HERO_2_ATTAQUE_DE_BASE 0
+#define HERO_2_VITESSE_ATTAQUE_DE_BASE 0
+#define HERO_2_TAUX_COUP_CRITIQUE_DE_BASE 0
+#define HERO_2_VITESSE_DE_BASE 0
+#define HERO_2_TYPE_ATTAQUE_DE_BASE "normal"
+#define HERO_2_STATUT_ATTAQUE_DE_BASE "normal"
+#define HERO_2_POUVOIR_SPECIAL_DE_BASE "rien"
+
+
+#endif /* hero_h */

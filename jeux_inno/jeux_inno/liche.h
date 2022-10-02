@@ -1,0 +1,23 @@
+
+#ifndef liche_h
+#define liche_h
+
+
+// Liche
+#define PROBA_LICHE_SALLE_OMBRE 100
+
+#define INTELL_LICHE 4
+
+#define LICHE_VITESSE 1
+
+#define LICHE_VISION 3
+
+#define BROUILLARD_LICHE 27
+#define MOITIE_BROUILLARD_LICHE (BROUILLARD_LICHE-1)/2
+#define I_J_MULTIPLICATEUR 234 / (BROUILLARD_LICHE-1)
+#define VARIATION_BROUILLARD 70
+#define SOUSTRACTION_BROUILLARD 120
+
+#define PROBA_AFFICHAGE_LICHE 4
+
+#endif /* liche_h */
