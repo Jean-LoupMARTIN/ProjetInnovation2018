@@ -3,10 +3,7 @@
 
 int main(void)
 {
-    printf("\n\n0000000000000\n\n");
-
     initialisation_SDL();
-    printf("\n\n11111111111111\n\n");
     initialisation_rand();
     
 
